@@ -29,6 +29,6 @@
 </table>
 
 <br>
-
+<% if user_signed_in? %>
 <%= link_to 'New Student', new_student_path, class: "btn btn-default" %>
-
+<% end %>
